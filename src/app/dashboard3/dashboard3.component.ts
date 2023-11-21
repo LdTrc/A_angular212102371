@@ -20,5 +20,5 @@ export class Dashboard3Component implements OnInit {
     scriptEl.src = 'assets/dist/js/pages/dashboard3.js';
     this.renderer.appendChild(document.body, scriptEl);
   }
-    ngOnInit(): void {}
+  ngOnInit(): void {}
 }
